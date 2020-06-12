@@ -73,10 +73,7 @@ def read_first_names_and_zipcodes_then_use_api
     id = row[0]
     name = row[:first_name]
     zipcode = clean_zipcode(row[:zipcode])
-
-    phone_number = row[:homephone]
-
-    phone = clean_phone(phone_number)
+    phone_ = clean_phone(row[:homephone])
 
     legislators = legislators_by_zipcode(zipcode)
 
