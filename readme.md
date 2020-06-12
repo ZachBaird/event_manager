@@ -14,4 +14,4 @@ To run this project, all you need is Ruby installed on your system. I wrote this
 
 ## Files
 
-Code files sit inside the `lib` directory. The `event_manager.rb` file is the entrypoint of the application. Some legacy code I wrote while building this sites in the `lib/notes` directory. This includes some code reading the csv file without the `csv` gem and some code reading it out with the `csv` gem.
+Code files sit inside the `lib` directory. The `event_manager.rb` file is the entrypoint of the application. Some legacy code I wrote while building this sits in the `lib/notes` directory. This includes some code reading the csv file without the `csv` gem and some code reading it out with the `csv` gem.
